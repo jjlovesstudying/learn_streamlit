@@ -10,7 +10,7 @@ import pickle
 
 # load the model.pkl
 path = r'model.pkl'
-with open(path, "rb") as f:
+with open('model.pkl', "rb") as f:
 	model = pickle.load(f)
 
 # Streamlit provides a caching mechanism that allows your app to stay performant 
