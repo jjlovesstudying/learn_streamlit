@@ -9,7 +9,7 @@ import pickle
 # import pyautogui # for reset button: pip install pyautogui
 
 # load the model.pkl
-path = r'C:\\Users\\Jun Jie\\Desktop\\DS Solutions Implmentation\\Lecture Material\\Day2\\DSSI_app3-main\\model.pkl'
+path = r'model.pkl'
 with open(path, "rb") as f:
 	model = pickle.load(f)
 
